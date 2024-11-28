@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    body{
+        background-image: url(./foto/Aphex\ synth\ soundscape_173.jpg);
+        background-size: cover;
+        border: 10px solid #5900ff;
+        width: 48cm;
+        height: 22cm;
+        border-radius: 20px;
+        margin-left: 1.3cm;
+        margin-top: 1.3cm;
+        
+    }
+    @keyframes aparecer{
+  0%{opacity: 0%;}
+  100%{opacity: 100%;}
+    }
+    @keyframes encojer{
+    0%{transform: scale(1);}
+    100%{transform: scale(0);}
+    }
+    #iniciar{
+    animation-name: aparecer;
+    animation-duration: 2s;
+    }
+    .iniciar{
+    transition: 0.5s;
+    }
+    .iniciar:hover{
+    transform: scale(1.05);
+    background-color: #bbff00;
+    color: #5900ff;
+    border: 5px solid #5900ff;
+    }
+    a{
+        background-color: #5900ff;
+        border: 5px solid #bbff00;
+        padding: 25px;
+        margin-left: 10cm;
+        margin-top: 10cm;
+        position: absolute;
+        color: #bbff00;
+        text-decoration: none;
+        font-family: "Zen Dots", sans-serif;
+        border-radius: 100px;
+        width: 15cm;
+        text-align: center;
+        font-weight: 800;
+        font-size: 150%;
+    }
+</style>
+
+
+</head>
+<body>
+    <a href="./111.html" id="iniciar" class="iniciar">INICIARº-(1)</a>
+</body>
+</html>
